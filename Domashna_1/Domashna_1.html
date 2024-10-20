@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order your pizza</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .content {
+            border: 2px solid black;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div style="text-align: center;">
+                <h1>Order pizza!</h1>
+
+                <form action="" method="post">
+
+                    <p><strong>Select the pizza size:</strong><br>
+              
+                        <input type="radio" id="Big" name="size" value="Big">
+                        <label for="Big">Big</label><br>
+              
+                        <input type="radio" id="Medium" name="size" value="Medium">
+                        <label for="Medium">Meduium</label><br>
+              
+                        <input type="radio" id="Small" name="size" value="Small">
+                        <label for="Small">Small</label><br>
+                    </p>
+                    
+
+                    <label for="Crust"><strong>Select the crust type:</strong></label>
+                    <br>
+                
+                    <select id="Crusts" name="Crust">
+                    <option value="Stuffed">Stuffed</option>
+                    <option value="Detroit">Detroit-style</option>
+                    <option value="Deep">Deep dish</option>
+                    <option value="Flat">Flatbread</option>
+                    </select>
+
+
+                    <p><strong>Select the filler:</strong><br>
+
+                        <input type="checkbox" id="Sausages" name="Filler" value="Sausages">
+                        <label for="Sausages">Sausages</label><br>
+              
+                        <input type="checkbox" id="Pepper" name="Filler" value="Pepper">
+                        <label for="Pepper">Pepper</label><br>
+              
+                        <input type="checkbox" id="Mushrooms" name="Filler" value="Mushrooms">
+                        <label for="Mushrooms">Mushrooms</label><br>
+                    </p>
+
+                    <p>
+                        <label for="Name"><strong>Name:</strong></label>
+                        <input id="Name" name="Name" type="text" size="25" maxlength="30">
+                        <br>
+                        <label for="Phone"><strong>Phone:</strong></label>
+                        <input id = "Phone" name="Phone" type ="tel" size="25" maxlength="30">
+                        <br>
+                        <textarea placeholder="Message:" rows="3" cols="30"></textarea>
+                        <br>
+                    </p>
+            
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
