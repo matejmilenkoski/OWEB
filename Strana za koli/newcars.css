@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainpic{
+    margin-top: 1rem;;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+h1{
+    text-align: center;
+    color:#0065B1;
+    padding:2rem;
+}
+
+.Description{
+    text-align: center;
+    padding:1rem;
+    font-size: large;
+    background-color:whitesmoke;
+}
+
+.otherpics{
+    padding:1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-left:100px;
+}
+
+.testdrive{
+    display: flex;
+    flex-direction: column;
+    color: #0065B1;
+    align-items: center;
+    font-size: larger;
+    padding: 10px;
+}

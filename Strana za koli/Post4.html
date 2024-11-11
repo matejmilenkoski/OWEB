@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="Post.css">
+
+</head>
+<body>
+
+    <div class="post-container">
+        <img src="pic222.jpg" class="post-image">
+    
+        <div class="like-comment-section">
+            <span class="like-button" id="likeButton">❤️</span>
+            <span id="likeCount">0 likes</span>
+        </div>
+    
+        <div class="comments">
+            <h3>Comments</h3>
+            <div id="commentsContainer"></div>
+        </div>
+    
+        <div class="add-comment">
+            <input type="text" id="commentInput" placeholder="Add a comment..." />
+            <button onclick="addComment()">Post</button>
+        </div>
+    </div>
+
+    <script src="Gallery.js"></script>
+</body>
+</html>

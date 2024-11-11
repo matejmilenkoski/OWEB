@@ -1,0 +1,16 @@
+footer{
+    position:relative;
+    background-color: rgba(0, 0, 0, 0.2);
+    color:gray;
+    padding: 16px;
+    font-size: 12px;
+}
+
+.Social{
+
+    top: -36px;
+    position:relative;
+    padding: 0px 20px;
+    float: right;
+    
+}
